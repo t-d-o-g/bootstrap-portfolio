@@ -1,0 +1,7 @@
+.bg {
+    background-image: url("../images/bg.png");
+}
+
+button:focus {
+    outline: 0;
+}
