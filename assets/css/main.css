@@ -2,6 +2,44 @@
     background-image: url("../images/bg.png");
 }
 
+input[type="text"],
+input[type="email"],
+textarea,
 button:focus {
     outline: 0;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
+
+.btn-success {
+    background: #4aaaa5;
+}
+
+.btn-success:hover {
+    background: #00b233;
+}
+
+.card-title {
+    color: #4aaaa5;
+}
+
+.navbar-light .navbar-brand {
+    background: #4aaaa5;
+    padding: .5rem 1rem;
+    color: #f8f9fa !important;
+}
+
+.navbar {
+    padding: 0;
+    border-bottom: 2px solid #4aaaa5;
+    box-shadow: 5px;
+}
+
+.card-footer {
+    border-top: 2px solid #4aaaa5;
+    box-shadow: 5px;
+}
+
+.card {
+    border: 1px solid #4aaaa5;
 }
